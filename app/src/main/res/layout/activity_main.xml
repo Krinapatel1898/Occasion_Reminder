@@ -1,0 +1,104 @@
+<?xml version = "1.0" encoding = "utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="#ba848c">
+
+    <androidx.cardview.widget.CardView
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_marginTop="100dp"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    app:cardCornerRadius="30dp"
+        app:cardBackgroundColor="#f6dbdf"
+    android:id="@+id/cv1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Birthdays"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:paddingLeft="30dp"
+        android:textColor="#ba848c"/>
+
+</androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardBackgroundColor="#f6dbdf"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/cv2">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/anniversary"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:textColor="#ba848c"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        app:cardBackgroundColor="#f6dbdf"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/cv3">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Custom "
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:textColor="#ba848c"/>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        app:cardBackgroundColor="#f6dbdf"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        app:cardCornerRadius="30dp"
+        android:id="@+id/cv4">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Other"
+            android:textSize="20sp"
+            android:layout_gravity="center"
+            android:paddingLeft="30dp"
+            android:textColor="#ba848c"/>
+
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="share"
+        android:id="@+id/btn_share"
+        android:layout_gravity="center|bottom"/>
+
+
+</LinearLayout>
